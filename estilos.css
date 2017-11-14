@@ -86,49 +86,31 @@ footer {
 #footer{
 	margin-top: 10px;
 }
-#contacto{
-	text-align: center;
-	position: absolute;
-	top: auto;
-	left:10%;
-	margin-top: 10px;
-}
-.contacto{
-	font-size: 2em;
-}
-#terminos{
-	text-align: center;
-	position: absolute;
-	top: auto;
-	left: 30%;
-  margin-top: 10px;
-}
-.terminos{
-	font-size: 2em;
+
+#footer .contenedor > div {
+text-align: center;
+padding: 10px;
+margin: 10px;
+background-color: white;
+width: 20%;
 }
 
-#redes{
-	text-align: center;
-	position: absolute;
-	top: auto;
-	left: 60%;
-	margin-top: 10px;
-}
-.redes{
-	font-size: 2em;
-}
-
-#derechos{
-	text-align: center;
-	position: absolute;
-	top: auto;
-	left: 80%;
-	margin-top: 10px;
-}
-.derechos{
-	font-size: 2em;
-}
 
 #footer{
 	display: flex;
+}
+
+@media all and (max-width:500px){
+	.adaptativa-porcentaje{
+		width: 90%;
+		order:1;
+	}
+	.fotoiz{
+		width: 90%;
+		order:2;
+	}
+	.fotosder{
+		width: 90%;
+		order:3;
+	}
 }
