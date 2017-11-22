@@ -67,37 +67,42 @@ flex-direction: column;
 
 .imagen1 {
   width:30%;
-  padding: 1%;
+  margin: 1%;
   margin-left: 2%;
+  filter: blur(10px);
 }
 
 .imagen2 {
   width:30%;
-  padding: 1%;
+  margin: 1%;
+  filter:grayscale(100%);
 }
 
 .imagen3 {
   width:30%;
-  padding: 1%;
+  margin: 1%;
+  filter: sepia(90%);
 }
 
 .imagen4 {
   width:30%;
-  padding: 1%;
+  margin: 1%;
   margin-left: 2%;
+  filter:grayscale(100%);
 }
 
 .imagen5 {
   width:30%;
-  padding: 1%;
+  margin: 1%;
 }
 
 .imagen6 {
   width:30%;
-  padding: 1%;
+  margin: 1%;
+  filter:grayscale(100%);
 }
 
-.adaptativa-porcentaje {
+[src*='imagen'] {
   -webkit-box-shadow: 2px 2px 5px #02010a;
   -moz-box-shadow: 2px 2px 5px #02010a;
 }
